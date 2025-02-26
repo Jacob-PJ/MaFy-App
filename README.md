@@ -1,12 +1,25 @@
 En halvfärdig app inspirerad av Kahn Academy och HPguiden jag jobbade på efter att blivt frustrerad av hur svårt det var att plugga till Matematik -och Fysikprovet.
-Appen är uppbyggd med googles programmerings språk Dart, och Cross-Platform ramverket FLutter. Latex används för att göra användares input finare. Till backend anväde jag Google Firebase.
-Just nu har jag stängt ner databasesn så appen gå inte att använda. Men det finns lite bilder i mappen PHOTOS här. Anledningen till att jag inte gjorde klart appen var då jag insåg hur lång tid det skulle ta att göra all frågor. 
-Då jag ville att majoriteten av frågorna skulle vara genererade när frågan valts. Vilket i säg inte är super svårt men tar extremt lång tid om det ska täcka all matte och fysik för provet.
 
-Home page: Visar viktiga datum. En länmk till att öva på tidigare prov. Områden användaren nyligen övat på. Och rekomendeerade övningsområden
+The app is built using Google's programming language Dart and the cross-platform framework Flutter. LaTeX is used to format user input nicely. For the backend, I used Google Firebase.
 
-Utfårska/öva: Delas upp i tre delar: Matematik, Fysik och Prov. På toppen av varje del finns det en progress bar för hela ämnet. Under det en länk knapp som tar än till det omrpåde användaren senast övat på. Under det ligger alla områden av ämet. Så i mattedelen finns det t.ex Tal och Trigonometri. 
-Klickar användaren på dess förs den till en ny sida som ser ungefär likadan ut som denna. Fas tör just det området. Där områded delas upp yttligare till underområden. Där varje underområde har en del texter och uppgifter. Varje underområde har också sin egen progress bar. 
-Går vi tillbakla till ämnes sidan finns det en länk till ett typ av kursprov. Som ska ge lite frågor från alla delar inom ämnet.
+Currently, the database is shut down, so the app is not functional. However, there are some images in the PHOTOS folder. The main reason I didn’t finish the app was that I realized how long it would take to create all the questions. I wanted most of the questions to be generated dynamically when selected, which isn’t overly complex but is extremely time-consuming if it needs to cover all the math and physics topics for the exam.
 
-Profil: Vias upp progress bar:en för matematik och fysik. Samt användares högsta poäng för ett av proven de gjort. Under det visas notisar. Och under det finns det en sektion för bokmärkta områden.
+App Structure
+Home Page
+Displays important dates.
+A link to practice previous exams.
+Recently practiced topics.
+Recommended practice areas.
+Explore/Practice
+Divided into three sections: Mathematics, Physics, and Exams.
+
+At the top of each section, there is a progress bar for the entire subject.
+Below that, a quick access button leads to the last practiced topic.
+All subject areas are listed below (e.g., "Numbers" and "Trigonometry" in Mathematics).
+Clicking on a subject opens a subpage structured similarly but focused on that topic, further divided into subtopics with explanatory texts and exercises. Each subtopic has its own progress bar.
+Back on the subject page, there is a link to a mock test that includes questions from all parts of the subject.
+Profile
+Displays progress bars for mathematics and physics.
+Shows the highest score from completed tests.
+Below, notifications are listed.
+A section for bookmarked topics is also available.
