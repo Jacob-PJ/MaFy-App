@@ -1,6 +1,4 @@
-En halvfärdig app inspirerad av Kahn Academy och HPguiden jag jobbade på efter att blivt frustrerad av hur svårt det var att plugga till Matematik -och Fysikprovet.
-
-The app is built using Google's programming language Dart and the cross-platform framework Flutter. LaTeX is used to format user input nicely. For the backend, I used Google Firebase.
+A half-finished app inspired by Khan Academy and HPguiden that I worked on after becoming frustrated with how difficult it was to study for the Matematik -och Fysikprovet (A type of entrance exam contianing math and pysics questions). The app is built using Google's programming language Dart and the cross-platform framework Flutter.
 
 Currently, the database is shut down, so the app is not functional. However, there are some images in the PHOTOS folder. The main reason I didn’t finish the app was that I realized how long it would take to create all the questions. I wanted most of the questions to be generated dynamically when selected, which isn’t overly complex but is extremely time-consuming if it needs to cover all the math and physics topics for the exam.
 
